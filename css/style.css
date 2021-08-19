@@ -7,7 +7,9 @@
 header {
 	width: 100%;
 	height: 150px;
-	background-color: #5E299A;
+	background-color: rgba(94, 41, 154, .8);
+	z-index: 2;
+    position: relative;
 }
 header .container {
 	position: relative;
@@ -143,4 +145,59 @@ header #logotipo {
 }
 #menu li.search .input-group {
 	top: 8px;
+}
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../assets/banner.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -110px;
+}
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 50px;
+}
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #FFF;
+	font-family: 'OpenSans';
+	font-weight: bold;
+}
+#news {
+	position: relative;
+    top: -110px;
+}
+#news h2 {
+	color:#5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border:#FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5E299A;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#news .thumbnails time {
+	color:#A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans';
 }
