@@ -6,7 +6,7 @@ Site desenvolvido para o curso da IBM Winning Woman - Primeira Fase.
 </p>
 
 <h1 align="center">
-  <img alt="logo" title="#logo" src="./assets/git.mp4" />
+  <img alt="logo" title="#logo" src="../assets/git.mp4" />
 </h1>
 
 ### 🎲 Executando o codigo fonte
